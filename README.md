@@ -155,7 +155,7 @@ sudo umount /mnt/akmal
 sudo losetup -d "$NEWDISK"
 # Alternatif jika NEWDISK tidak tersedia:
 # sudo losetup -j /var/lib/akmal-disk.img
-# sudo losetup -d /dev/loopX
+# sudo losetup -d /dev/loop0
 
 # Hapus berkas dummy dan mount point
 sudo rm -f /var/lib/akmal-disk.img
